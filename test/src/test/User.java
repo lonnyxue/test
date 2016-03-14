@@ -48,13 +48,8 @@ class User {
 	  User userA = new User();  
 	  userA.setName("王明");  
 	    
-	  User userB = new User();  
-	  userB.setName("王明");  
-	  
 	  User userC = new User();  
 	  userC.setName("王亮");  
 	  
-	  System.out.println("userA equals userB:" + userA.equals(userB));  
-	  System.out.println("userA equals userC:" + userA.equals(userC));  
 	 }  
 }
